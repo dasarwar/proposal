@@ -13,8 +13,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableLoggingAspect
-@EnableJpaRepositories(basePackages = "org.huduu.profile.repository")
-@EntityScan(basePackages= "org.huduu.profile.domain")
+//@EnableJpaRepositories(basePackages = "org.huduu.profile.repository")
+//@EntityScan(basePackages= "org.huduu.profile.domain")
 @ComponentScan(basePackages = "org.huduu.profile, org.huduu.common")
 public class ProposalApplication {
     public static void main(String [] args) {
