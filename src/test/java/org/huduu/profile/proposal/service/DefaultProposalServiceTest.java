@@ -1,16 +1,15 @@
 package org.huduu.profile.proposal.service;
 
 import org.huduu.profile.common.Constants;
-import org.huduu.profile.domain.ProposalEntity;
-import org.huduu.profile.domain.ProposalHistoryEntity;
 import org.huduu.profile.exception.InvalidProfileException;
 import org.huduu.profile.exception.UnAuthorizedDataAccessException;
 import org.huduu.profile.model.HuduProfile;
 import org.huduu.profile.model.Proposal;
+import org.huduu.profile.proposal.domain.ProposalEntity;
 import org.huduu.profile.proposal.exception.IllegalProposalStateException;
 import org.huduu.profile.proposal.exception.InvalidProposalException;
+import org.huduu.profile.proposal.repository.ProposalRepository;
 import org.huduu.profile.proposal.service.api.ProposalService;
-import org.huduu.profile.repository.ProposalRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
